@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-30
  */
 @Service
+@com.alibaba.dubbo.config.annotation.Service
 public class HomeBrandServiceImpl extends ServiceImpl<HomeBrandMapper, HomeBrand> implements HomeBrandService {
 
 }

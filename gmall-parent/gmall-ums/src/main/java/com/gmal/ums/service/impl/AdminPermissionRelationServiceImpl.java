@@ -1,4 +1,4 @@
-package com.gmall.ums.service.impl;
+package com.gmal.ums.service.impl;
 
 import com.gmall.ums.entity.AdminPermissionRelation;
 import com.gmall.ums.mapper.AdminPermissionRelationMapper;
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Service;
  * @since 2019-11-30
  */
 @Service
+@com.alibaba.dubbo.config.annotation.Service
 public class AdminPermissionRelationServiceImpl extends ServiceImpl<AdminPermissionRelationMapper, AdminPermissionRelation> implements AdminPermissionRelationService {
 
 }
